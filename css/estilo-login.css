@@ -1,0 +1,37 @@
+﻿/* estilos-login.css */
+@import url("temas-colores-fuentes.css");
+h1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 23em;
+  border: 5px solid var(--light-color-acento-3);
+  padding: 20px;
+  background-color: var(--light-color-fondo);
+}
+form label {
+  display: flex;
+}
+.terminos {
+    margin: auto;
+  text-align:center;
+}
+.boton{
+    margin: auto;
+    justify-content: center;
+    background-color: var(--light-color-acento-2);
+}
+
+body{
+  background-color: var(--light-color-acento-1);
+}
+
+.botonInput{
+  background-color: #e04024;
+
+}

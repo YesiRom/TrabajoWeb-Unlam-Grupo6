@@ -1,0 +1,41 @@
+﻿/* estilos-datos-personales.css */
+
+.grid {
+  display: grid;
+  grid-template-areas: "nombre apellido";
+  grid-column-gap: 10px;
+}
+.a {
+  grid-area: nombre;
+}
+.b {
+  grid-area: apellido;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-areas: "tipo numerodedocumento fechadenacimiento";
+  grid-column-gap: 10px;
+}
+
+.c {
+  grid-area: tipo;
+}
+.d {
+  grid-area: numerodedocumento;
+}
+.e {
+  grid-area: fechadenacimiento;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-areas: "celular email2";
+  grid-column-gap: 10px;
+}
+.f {
+  grid-area: celular;
+}
+.g {
+  grid-area: email2;
+}

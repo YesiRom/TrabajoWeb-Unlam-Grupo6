@@ -1,0 +1,26 @@
+﻿/* estilos-registrarse.css */
+h1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 23em;
+  border: 2px solid black;
+  padding: 20px;
+}
+form label {
+  display: flex;
+}
+p {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.boton {
+  margin: auto;
+  display: block;
+}

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilo-login.css" />
+    <title></title>
+  </head>
+  <body>
+    <form>
+      <h1>Iniciar Sesión</h1>
+      <br />
+      <label for="email"></label>
+      <input type="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" placeholder="Email*" />
+      <br />
+      <label for="Contraseña"></label>
+      <input type="password" id="Contraseña" placeholder="Contraseña*" />
+      <a href="recuperar-password.html" target="_self">¿olvidaste tu contraseña?</a>
+      <div class="boton">
+        <input
+          type="submit"
+          value="INICIAR SESIÓN"
+          id="INICIAR SESIÓN"
+          class="botonInput"
+        />
+      </div>
+      <p>¿No tenes cuenta? <a href="registrarse.html">Registrate</a></p>
+      <p class="terminos">
+        Al continuar, confirmo que he leído y aceptado los Terminos y
+        Condiciones y las Politicas de Privacidad de
+      </p>
+    </form>
+  </body>
+</html>

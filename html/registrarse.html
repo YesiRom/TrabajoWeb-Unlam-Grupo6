@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilo-registrarse.css"">
+    <title></title>
+  </head>
+  <body>
+    <form>
+      <h1>Registrarse</h1>
+      <br />
+      <label for="email"></label>
+      <input
+        type="email"
+        id="email"
+        required
+        placeholder="Email*"
+        required
+        pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+      />
+      <br />
+      <label for="contraseña"></label>
+      <input
+        type="password"
+        id="contraseña"
+        required
+        placeholder="Contraseña*"
+      />
+      <br />
+      <a href="recuperar-password.html">¿olvidaste tu contraseña?</a>
+      <br />
+      <div class="boton">
+        <input
+          type="submit"
+          value="REGISTRATE"
+          id="REGISTRATE"
+          style="background-color: rgb(36, 107, 240)"
+        />
+      </div>
+      <p>¿Ya tenes una cuenta? <a href="login.html">Iniciar Sesión</a></p>
+      <p>
+        Al continuar, confirmo que he leído y aceptado los Terminos y
+        Condiciones y las Politicas de Privacidad de
+      </p>
+    </form>
+  </body>
+</html>

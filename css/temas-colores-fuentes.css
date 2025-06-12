@@ -1,0 +1,28 @@
+﻿/* URL Paleta de colores LIGHT: https://www.coloreasily.com/?colors=0d0a07-f8f5f2-5489c9-e04024-465e7c */
+/* URL Paleta de colores DARK: https://www.coloreasily.com/?colors=f2f5fd-042262-f7ebc6-9980F2-f2913d */
+@import url('https://fonts.google.com/noto/specimen/Noto+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Khula');
+
+:root {
+   --light-color-texto: #0d0a07;
+   --light-color-fondo: #f8f5f2;
+   --light-color-acento-1: #5489c9;
+   --light-color-acento-2: #e04024;
+   --light-color-acento-3: #465e7c;
+   --dark-color-texto: #f2f5fd;
+   --dark-color-fondo: #042262;
+   --dark-color-acento-1: #f7ebc6;
+   --dark-color-acento-2: #9980F2;
+   --dark-color-acento-3: #f2913d;
+}
+
+ .light-theme {
+   color: var(--light-color-texto);
+   background-color: var(--light-color-fondo);
+}
+
+.dark-theme {
+   color: var(--dark-color-texto);
+   background-color: var(--dark-color-fondo);
+}
